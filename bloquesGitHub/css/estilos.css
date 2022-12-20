@@ -1,0 +1,39 @@
+.container{
+    background-color: #434343;
+    display: block;
+    align-items: center;
+}
+.row1{
+    background-color: #fff;
+}
+.row2{
+    background-color: cornflowerblue;
+}
+.row3{
+    background-color: hotpink;
+}
+.row1,
+.row2,
+.row3{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 92%;
+    margin: 12px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+h1,p,a{
+    text-align: center;
+    color:#fff
+}
+p,a{
+    font-size: 20px;
+}

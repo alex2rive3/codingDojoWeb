@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'cursive',sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: lightskyblue;
+    height: 80px;
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #fff;
+}
+.nav-link>ul{
+    display:flex
+}
+.nav-link>ul>li{
+    font-size: 22px;
+    padding: 10px;
+    color: #fff;
+    margin-left: 15px;
+    list-style-type: none;
+    cursor:pointer;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #000;
+    height: 60px;
+}
+label{
+    font-size: 18px;
+    margin-right: 10px;
+}
+#temperatura{
+    width: 60px;
+    height: 26px;
+    border-radius: 7px;
+    padding-left: 8px;
+}
+.pronostico{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.card{
+    margin-left: 10px;
+    height: 500px;
+    background-color: #cacaca;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+}
+.card>img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.minMax{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+    font-weight: 600;
+}
+.max{
+    color: red;
+}
+.min{
+    color: #127faf;
+}
+.cookie{
+    border-radius: 8px;
+    background-color: ghostwhite;
+    width: 90%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.col1{
+    margin: 0 10px;
+}
+.btn{
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color: lightskyblue;
+    border-radius: 7px;
+    box-shadow: 1px 1px 6px 2px black;
+}

@@ -1,0 +1,33 @@
+body{
+    font-family: cursive;
+    width: 95%;
+    margin: auto;
+}
+h1{
+    background-color: #434343;
+    color: aqua;
+    font-size: 34px;
+}
+h1 span{
+    color: #fff;
+    font-size: 34px;
+}
+h2{
+    background-color: violet;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+h3{
+    text-align: end;
+    background-color: cadetblue;
+    color: #000;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3{
+    margin: 15px;
+}

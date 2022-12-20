@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/biblioteca.css">
+    <title>Eventos Onclick</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <h1 id="nav-title">Dojonary</h1>
+            <input type="search" name="search" id="" placeholder="Search">
+            <button class="btn-p" type="submit" onclick="login(this)">Login</button>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <article>
+                <div class="row border">
+                    <div class="col1">
+                        <h1>NINJA</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn-s" type="submit" onclick="liked()">13 Likes</button>
+                    </div>
+                    <div class="col2">
+                        <p>A practitioner skilled in the <a href="#">Japonese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="row border">
+                    <div class="col1">
+                        <h1>NINJA</h1>
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button class="btn-s" type="submit" onclick="liked()">37 Likes</button>
+                    </div>
+                    <div class="col2">
+                        <p>A <a href="#">programer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <aside class="border">
+            <div class="col1">
+                <p>Dojonary is defined by <strong>YOU</strong></p>
+                <button class="btn-p" id="add" type="submit" onclick="ocultar(this)">Add Definition</button>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>

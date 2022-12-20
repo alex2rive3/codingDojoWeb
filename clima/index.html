@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Dojo Weather</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-title">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li onclick="reporte()">Burbank</li>
+                    <li onclick="reporte()">Chicago</li>
+                    <li onclick="reporte()">Dallas</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="info">
+                <h2>San Jose</h2>
+                <div class="">
+                    <label for="temperatura">Show Temperature in </label>
+                    <select onchange="farenheit()" name="temperatura" id="temperatura">
+                        <option value="C">°C</option>
+                        <option value="F">°F</option>
+                    </select>
+                </div>
+            </div>
+            <div class="pronostico">
+                <div class="card">
+                    <h3>Today</h3>
+                    <img src="assets/some_rain.png" alt="lluvia">
+                    <p>some rain</p>
+                    <div class="minMax">
+                        <span class="max">24 <span>°</span></span>
+                        <span class="min">18 <span>°</span></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Tomorrow</h3>
+                    <img src="assets/some_sun.png" alt="sol">
+                    <p>some sun</p>
+                    <div class="minMax">
+                        <span class="max">27 <span>°</span></span>
+                        <span class="min">19 <span>°</span></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Friday</h3>
+                    <img src="assets/some_clouds.png" alt="nublado">
+                    <p>some clouds</p>
+                    <div class="minMax">
+                        <span class="max">21 <span>°</span></span>
+                        <span class="min">16 <span>°</span></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Saturday</h3>
+                    <img src="assets/some_sun.png" alt="lluvia">
+                    <p>some sun</p>
+                    <div class="minMax">
+                        <span class="max">24 <span>°</span></span>
+                        <span class="min">18 <span>°</span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="cookie">
+                <div class="col1">
+                    <img src="assets/cookie.png" alt="cookie" srcset="">
+                </div>
+                <div>
+                    <h2>Stop! Cookie Time</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis mollitia fuga vero tenetur
+                        similique
+                        laborum ad sed, quasi, eaque modi alias enim vel labore, molestiae iste nam repudiandae impedit?
+                        Iure!
+                    </p>
+                </div>
+                <div class="col1">
+                    <button onclick="accept()" class="btn">I Accept</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
