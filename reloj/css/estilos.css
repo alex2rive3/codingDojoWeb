@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#face {
+    background-color: #434343;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid #000;
+    position: relative;
+}
+    
+#minutes, #hour, #seconds {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: top center;
+    border: none;
+}
+    
+#seconds {
+    background-color: #fff;
+    height: 130px;
+    width: 2px;
+}
+    
+#hour {
+    background-color: #009;
+    height: 100px;
+    width: 8px;
+    transform: rotate(125deg);
+}
+    
+#minutes {
+    background-color: #cacaca;
+    height: 120px;
+    width: 4px;
+    transform: rotate(255deg);
+}
+span{
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#doce{
+    position: absolute;
+    right: 45%;
+    top: 0px;
+}
+#tres{
+    position: absolute;
+    right: 0px;
+    top: 45%;
+}
+#seis{
+    position: absolute;
+    right: 47%;
+    bottom: 0px;
+}
+#nueve{
+    position: absolute;
+    left: 0px;
+    top: 45%;
+}
